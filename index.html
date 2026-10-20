@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Registration Form</h1>
+        <hr>
+        <h3><p>Please fill in your details below.</p></h3>
+    </header>
+    
+
+    <main>
+        <form action="#" method="post">
+
+            <label for="name"><b>Full Name:</b></label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="matric"><b>Matric Number:</b></label><br>
+            <input type="text" id="matric" name="matric" placeholder="2024****" required>
+            <br><br>
+
+            <label for="department"><b>Department:</b></label><br>
+            <select id="department" name="department" required>
+                <option value="ICT">Information and Communication Technology</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Physics">Physics</option>
+                <option value="Information Technology">Information Technology</option>
+            </select>
+            <br><br>
+
+            <label for="email"><b>Email Address:</b></label><br>
+            <input type="email" id="email" name="email" placeholder="funaab****@gmail.com" required>
+            <br><br>
+
+            <label for="phone"><b>Phone Number:</b></label><br>
+            <input type="tel" id="phone" name="phone" placeholder="080145*****" required>
+            <br><br>
+
+            <p><b>Gender:</b></p>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="programme"><b>Programme:</b></label><br>
+            <select id="programme" name="programme" required>
+                <option value="Fulltime">Fulltime</option>
+                <option value="Weekend">Weekend</option>
+                <option value="Weekday">Weekday</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Submit Registration</button>
+
+        </form>
+    </main>
+
+    <hr>
+    <footer>
+        <p>Department of Information Communication Technology</p>
+        <p>&cop;2026 Student Registration Portal</p>
+    </footer>
+
+</body>
+</html>
